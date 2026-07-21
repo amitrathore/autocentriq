@@ -1029,6 +1029,13 @@ ul {
   font-size: 0.9rem;
 }
 
+.footer-line a {
+  display: inline;
+  color: var(--accent);
+  margin: 0;
+  font-weight: 750;
+}
+
 .sticky-mobile-cta {
   display: none;
 }
