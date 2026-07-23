@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>AutocentrIQ OG Card</title>
+    <style>
+      :root {
+        --bg: #0b1114;
+        --panel: #142026;
+        --ink: #eef7f6;
+        --muted: #a9babe;
+        --accent: #36d0c2;
+        --green: #74e37d;
+        --risk: #ff7b7b;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        width: 1200px;
+        height: 630px;
+        overflow: hidden;
+        background:
+          linear-gradient(135deg, rgba(54, 208, 194, 0.15), transparent 32%),
+          linear-gradient(180deg, #0b1114, #10191e);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      .frame {
+        width: 1200px;
+        height: 630px;
+        padding: 58px 66px;
+        display: grid;
+        grid-template-columns: 0.92fr 0.88fr;
+        gap: 54px;
+        position: relative;
+      }
+
+      .brand {
+        display: inline-flex;
+        align-items: center;
+        gap: 16px;
+        font-weight: 850;
+        font-size: 28px;
+        margin-bottom: 50px;
+      }
+
+      .mark {
+        width: 48px;
+        height: 48px;
+        border-radius: 50%;
+        border: 1px solid rgba(54, 208, 194, 0.66);
+        display: grid;
+        place-items: center;
+        background: radial-gradient(circle, rgba(54, 208, 194, 0.2), rgba(54, 208, 194, 0.02) 64%);
+        position: relative;
+      }
+
+      .mark::before {
+        content: "";
+        width: 29px;
+        height: 29px;
+        border: 1px solid rgba(238, 247, 246, 0.28);
+        border-radius: 50%;
+      }
+
+      .mark::after {
+        content: "";
+        position: absolute;
+        width: 9px;
+        height: 9px;
+        border-radius: 50%;
+        background: var(--accent);
+        box-shadow: 0 0 28px rgba(54, 208, 194, 0.8);
+      }
+
+      .eyebrow {
+        margin: 0 0 18px;
+        color: var(--accent);
+        text-transform: uppercase;
+        font-weight: 850;
+        font-size: 18px;
+        letter-spacing: 0.08em;
+      }
+
+      h1 {
+        margin: 0 0 26px;
+        font-size: 62px;
+        line-height: 0.96;
+        letter-spacing: 0;
+        max-width: 570px;
+      }
+
+      .lede {
+        color: var(--muted);
+        font-size: 22px;
+        line-height: 1.38;
+        max-width: 520px;
+      }
+
+      .visual {
+        align-self: center;
+        border: 1px solid rgba(54, 208, 194, 0.28);
+        border-radius: 14px;
+        padding: 22px;
+        background:
+          linear-gradient(rgba(238, 247, 246, 0.04) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(238, 247, 246, 0.04) 1px, transparent 1px),
+          rgba(238, 247, 246, 0.035);
+        background-size: 42px 42px;
+        box-shadow: 0 32px 80px rgba(0, 0, 0, 0.32);
+      }
+
+      .opportunity {
+        border: 1px solid rgba(54, 208, 194, 0.48);
+        border-radius: 10px;
+        background: rgba(54, 208, 194, 0.08);
+        padding: 24px;
+        margin-bottom: 16px;
+      }
+
+      .row {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        align-items: center;
+      }
+
+      .label {
+        color: var(--muted);
+        text-transform: uppercase;
+        font-size: 15px;
+        font-weight: 850;
+        letter-spacing: 0.05em;
+      }
+
+      .impact {
+        color: var(--green);
+        font-size: 26px;
+        font-weight: 850;
+        font-variant-numeric: tabular-nums;
+      }
+
+      h2 {
+        font-size: 31px;
+        line-height: 1.02;
+        margin: 20px 0 16px;
+      }
+
+      .opportunity p,
+      .metric p {
+        color: var(--muted);
+        margin: 0;
+        font-size: 18px;
+        line-height: 1.35;
+      }
+
+      .metrics {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+
+      .metric {
+        min-height: 116px;
+        border: 1px solid rgba(238, 247, 246, 0.13);
+        border-radius: 10px;
+        padding: 18px;
+        background: rgba(0, 0, 0, 0.18);
+      }
+
+      .metric strong {
+        display: block;
+        font-size: 34px;
+        line-height: 1;
+        margin: 8px 0;
+        font-variant-numeric: tabular-nums;
+      }
+
+      .risk {
+        color: var(--risk);
+      }
+
+      .footer {
+        position: absolute;
+        left: 66px;
+        right: 66px;
+        bottom: 28px;
+        display: flex;
+        justify-content: space-between;
+        color: rgba(238, 247, 246, 0.58);
+        font-size: 18px;
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="frame">
+      <section>
+        <div class="brand">
+          <span class="mark"></span>
+          <span>AutocentrIQ</span>
+        </div>
+        <p class="eyebrow">Automotive Outcome Intelligence</p>
+        <h1>Turn every operating signal into profitable action.</h1>
+        <p class="lede">The Outcome Machine for dealerships and service centers that finds what matters, executes approved work, and measures impact.</p>
+      </section>
+      <section class="visual" aria-label="AutocentrIQ opportunity preview">
+        <article class="opportunity">
+          <div class="row">
+            <span class="label">Service Recovery</span>
+            <span class="impact">+$48,600</span>
+          </div>
+          <h2>Recover unsold service recommendations</h2>
+          <p>312 declined or deferred service items have had no follow-up within 14 days.</p>
+        </article>
+        <div class="metrics">
+          <article class="metric">
+            <span class="label">Forecast Gap</span>
+            <strong class="risk">-$140K</strong>
+            <p>At risk this month</p>
+          </article>
+          <article class="metric">
+            <span class="label">Opportunities</span>
+            <strong class="impact">+$196K</strong>
+            <p>Identified impact</p>
+          </article>
+          <article class="metric">
+            <span class="label">Actions</span>
+            <strong>14</strong>
+            <p>In progress</p>
+          </article>
+          <article class="metric">
+            <span class="label">Loop</span>
+            <strong>Learn</strong>
+            <p>Measure what works</p>
+          </article>
+        </div>
+      </section>
+      <div class="footer">
+        <span>Observe -> Operate -> Learn</span>
+        <span>autocentriq.com</span>
+      </div>
+    </main>
+  </body>
+</html>
