@@ -356,7 +356,7 @@ h1, h2 { font-weight: 500; letter-spacing: -0.06em; }
 .entity-customer { grid-column: 1; grid-row: 1; }
 .entity-deal { grid-column: 1; grid-row: 2; }
 .entity-vin { grid-column: 1; grid-row: 3; }
-.entity-rooftop { grid-column: 5; grid-row: 1; }
+.entity-location { grid-column: 5; grid-row: 1; }
 .entity-lender { grid-column: 5; grid-row: 2; }
 .entity-ro { grid-column: 5; grid-row: 3; }
 .entity-hub {

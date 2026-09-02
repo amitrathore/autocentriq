@@ -15,7 +15,7 @@ const platformStages = [
   {
     title: "Automotive digital twin",
     description:
-      "Assemble a living model of every VIN, customer, deal, repair order, lender, and rooftop—with the relationships that make each signal useful.",
+      "Assemble a living model of every VIN, customer, deal, repair order, lender, and location—with the relationships that make each signal useful.",
   },
   {
     title: "Focused control towers",
@@ -35,7 +35,7 @@ const platformStages = [
   {
     title: "Continuous learning",
     description:
-      "Feed outcomes and operator corrections back into the model so recommendations improve by rooftop, segment, and operating condition.",
+      "Feed outcomes and operator corrections back into the model so recommendations improve by location, segment, and operating condition.",
   },
 ];
 
